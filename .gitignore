@@ -1,0 +1,35 @@
+# Data files (large) - exclude all outputs
+data/raw/*
+data/csv/*
+data/graphs/*
+data/processed/*
+data/outputs/csv/*.csv
+data/outputs/csv/*.geojson
+data/outputs/graphs/*
+
+# QGIS files (large rasters)
+Qgis/*.tif
+Qgis/*.qgz
+Qgis/Maps/*.pdf
+Qgis/Maps/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+.Rhistory
+
+# Keep these
+!README.md
+!LICENSE
+!.gitignore
+!scripts/
+!scripts/**
